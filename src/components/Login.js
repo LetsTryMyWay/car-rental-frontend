@@ -16,11 +16,11 @@ const Login = () => {
     }
 
     try {
-      const response = await axios.post('http://localhost:5000/api/auth/login', {
+      const response = await axios.post('https://car-rental-services-mukesh.onrender.com/api/auth/login', {
         email,
         password,
       });
-
+ //http://localhost:5000/api/auth/login
       console.log('Login successful:', response.data);
 
       // Redirect to the home page after successful login
