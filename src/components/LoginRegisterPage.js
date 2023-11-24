@@ -15,8 +15,8 @@ const LoginRegisterPage = () => {
       {showLogin ? <Login /> : <Register />}
       <p>
         {showLogin ? "Don't have an account? " : 'Already have an account? '}
-        <button onClick={toggleForm}>
-          {showLogin ? 'Register here' : 'Login here'}
+        <button onClick={toggleForm} className='header__btn btn '>
+          {showLogin ? 'Register here' : 'Login here' }
         </button>
       </p>
     </div>

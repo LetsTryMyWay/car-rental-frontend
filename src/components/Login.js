@@ -53,7 +53,7 @@ const Login = () => {
         <br />
         <br />
        
-        <button type="button" onClick={handleLogin}>
+        <button type="button" onClick={handleLogin} className='header__btn btn'>
           Login
         </button>
         {error && <p>{error}</p>}

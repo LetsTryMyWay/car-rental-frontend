@@ -61,7 +61,7 @@ const Register = () => {
         />
         <br />
         <br />
-        <button type="button" onClick={handleRegister}>
+        <button type="button" onClick={handleRegister} className='header__btn btn'>
           Register
         </button> 
         {error && <p>{error}</p>}
